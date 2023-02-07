@@ -1,0 +1,1357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\bin\SIGPRA.dll">
+   <Modules>
+    <Module Name="sigpra.dll">
+     <Namespaces>
+      <Namespace Name="">
+       <Types>
+        <Type Name="Source_BHIDRICOSUPERFICIAL_BHidricoSuperficialConsultarDemandaHidrica" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consultar_demandaHidricaSuperficial_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\BHIDRICOSUPERFICIAL" File="BHidricoSuperficialConsultarDemandaHidrica.ascx.cs" Line="143">In method 'Source_BHIDRICOSUPERFICIAL_BHidricoSuperficialConsultarDemandaHidrica.consultar_demandaHidricaSuperficial_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_BHIDRICOSUPERFICIAL_BHidricoSuperficialConsultarDemandaHidricaEstimada" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_demandaHidricaSuperficialEstimada_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\BHIDRICOSUPERFICIAL" File="BHidricoSuperficialConsultarDemandaHidricaEstimada.ascx.cs" Line="130">In method 'Source_BHIDRICOSUPERFICIAL_BHidricoSuperficialConsultarDemandaHidricaEstimada.consulta_demandaHidricaSuperficialEstimada_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_BHIDRICOSUPERFICIAL_BHidricoSuperficialConsultarDemandaHidricaUso" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_demandaHidricaSuperficialUso_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\BHIDRICOSUPERFICIAL" File="BHidricoSuperficialConsultarDemandaHidricaUso.ascx.cs" Line="145">In method 'Source_BHIDRICOSUPERFICIAL_BHidricoSuperficialConsultarDemandaHidricaUso.consulta_demandaHidricaSuperficialUso_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_BHIDRICOSUPERFICIAL_BHidricoSuperficialConsultarOfertaHidrica" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_ofertaHidrica_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\BHIDRICOSUPERFICIAL" File="BHidricoSuperficialConsultarOfertaHidrica.ascx.cs" Line="164">In method 'Source_BHIDRICOSUPERFICIAL_BHidricoSuperficialConsultarOfertaHidrica.consulta_ofertaHidrica_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_CALIDADAIRE_CalidadAireConsultarCategoriaEstacion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarRegistro()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CALIDADAIRE" File="CalidadAireConsultarCategoriaEstacion.ascx.cs" Line="123">In method 'Source_CALIDADAIRE_CalidadAireConsultarCategoriaEstacion.cargarRegistro()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_CALIDADAIRE_CalidadAireConsultarEstacion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosEstacion()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CALIDADAIRE" File="CalidadAireConsultarEstacion.ascx.cs" Line="394">In method 'Source_CALIDADAIRE_CalidadAireConsultarEstacion.cargarGridViewArchivosEstacion()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cargarRegistro()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CALIDADAIRE" File="CalidadAireConsultarEstacion.ascx.cs" Line="200">In method 'Source_CALIDADAIRE_CalidadAireConsultarEstacion.cargarRegistro()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CALIDADAIRE" File="CalidadAireConsultarEstacion.ascx.cs" Line="345">In method 'Source_CALIDADAIRE_CalidadAireConsultarEstacion.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_CALIDADAIRE_CalidadAireConsultarFuenteInformacion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarRegistro()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CALIDADAIRE" File="CalidadAireConsultarFuenteInformacion.ascx.cs" Line="127">In method 'Source_CALIDADAIRE_CalidadAireConsultarFuenteInformacion.cargarRegistro()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_CALIDADAIRE_CalidadAireConsultarMedicion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarRegistro()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CALIDADAIRE" File="CalidadAireConsultarMedicion.ascx.cs" Line="144">In method 'Source_CALIDADAIRE_CalidadAireConsultarMedicion.cargarRegistro()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_CALIDADAIRE_CalidadAireConsultarMedida" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarRegistro()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CALIDADAIRE" File="CalidadAireConsultarMedida.ascx.cs" Line="135">In method 'Source_CALIDADAIRE_CalidadAireConsultarMedida.cargarRegistro()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_CALIDADAIRE_CalidadAireConsultarMedidaEstacion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarRegistro()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CALIDADAIRE" File="CalidadAireConsultarMedidaEstacion.ascx.cs" Line="182">In method 'Source_CALIDADAIRE_CalidadAireConsultarMedidaEstacion.cargarRegistro()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_CALIDADAIRE_CalidadAireConsultarUnidad" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarRegistro()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CALIDADAIRE" File="CalidadAireConsultarUnidad.ascx.cs" Line="123">In method 'Source_CALIDADAIRE_CalidadAireConsultarUnidad.cargarRegistro()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_CORRIENTES_CorrientesConsultarModuloConsumoCuenca" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btn_guardar_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CORRIENTES" File="CorrientesConsultarModuloConsumoCuenca.ascx.cs" Line="87">In method 'Source_CORRIENTES_CorrientesConsultarModuloConsumoCuenca.btn_guardar_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cargarModuloConsumoCuenca()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CORRIENTES" File="CorrientesConsultarModuloConsumoCuenca.ascx.cs" Line="138">In method 'Source_CORRIENTES_CorrientesConsultarModuloConsumoCuenca.cargarModuloConsumoCuenca()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_CORRIENTES_CorrientesConsultarModuloConsumoCuencaUso" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btn_guardar_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CORRIENTES" File="CorrientesConsultarModuloConsumoCuencaUso.ascx.cs" Line="102">In method 'Source_CORRIENTES_CorrientesConsultarModuloConsumoCuencaUso.btn_guardar_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cargarModuloConsumoCuencaUso()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CORRIENTES" File="CorrientesConsultarModuloConsumoCuencaUso.ascx.cs" Line="210">In method 'Source_CORRIENTES_CorrientesConsultarModuloConsumoCuencaUso.cargarModuloConsumoCuencaUso()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_CORRIENTES_CorrientesConsultarReglamentacion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosCorrientes()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CORRIENTES" File="CorrientesConsultarReglamentacion.ascx.cs" Line="334">In method 'Source_CORRIENTES_CorrientesConsultarReglamentacion.cargarGridViewArchivosCorrientes()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cargarReglamentacion()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CORRIENTES" File="CorrientesConsultarReglamentacion.ascx.cs" Line="158">In method 'Source_CORRIENTES_CorrientesConsultarReglamentacion.cargarReglamentacion()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CORRIENTES" File="CorrientesConsultarReglamentacion.ascx.cs" Line="258">In method 'Source_CORRIENTES_CorrientesConsultarReglamentacion.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_CORRIENTES_CorrientesConsultarUso" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarUso()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\CORRIENTES" File="CorrientesConsultarUso.ascx.cs" Line="110">In method 'Source_CORRIENTES_CorrientesConsultarUso.cargarUso()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_GENERAL_GeneralConsultarCuenca" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btn_aceptarEliminar_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\GENERAL" File="GeneralConsultarCuenca.ascx.cs" Line="385">In method 'Source_GENERAL_GeneralConsultarCuenca.btn_aceptarEliminar_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#btn_guardarCuenca_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\GENERAL" File="GeneralConsultarCuenca.ascx.cs" Line="215">In method 'Source_GENERAL_GeneralConsultarCuenca.btn_guardarCuenca_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cargarGridViewArchivosCuenca()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\GENERAL" File="GeneralConsultarCuenca.ascx.cs" Line="313">In method 'Source_GENERAL_GeneralConsultarCuenca.cargarGridViewArchivosCuenca()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cargarRegistro()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\GENERAL" File="GeneralConsultarCuenca.ascx.cs" Line="104">In method 'Source_GENERAL_GeneralConsultarCuenca.cargarRegistro()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\GENERAL" File="GeneralConsultarCuenca.ascx.cs" Line="271">In method 'Source_GENERAL_GeneralConsultarCuenca.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_GENERAL_GeneralConsultarPeriodo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_Periodo_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\GENERAL" File="GeneralConsultarPeriodo.ascx.cs" Line="110">In method 'Source_GENERAL_GeneralConsultarPeriodo.consulta_Periodo_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_GENERAL_GeneralConsultarPredio" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_cuencaMunicipio_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\GENERAL" File="GeneralConsultarPredio.ascx.cs" Line="32">In method 'Source_GENERAL_GeneralConsultarPredio.cbox_cuencaMunicipio_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaparametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#consulta_predio_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\GENERAL" File="GeneralConsultarPredio.ascx.cs" Line="159">In method 'Source_GENERAL_GeneralConsultarPredio.consulta_predio_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_GENERAL_GeneralCrearCuenca" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_cuencaSuperior_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\GENERAL" File="GeneralCrearCuenca.ascx.cs" Line="32">In method 'Source_GENERAL_GeneralCrearCuenca.cbox_cuencaSuperior_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RHIDRICOSUBTERRANEO_RHidricoSubterraneoConsultarFormacionCuenca" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_formacionCuenca_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RHIDRICOSUBTERRANEO" File="RHidricoSubterraneoConsultarFormacionCuenca.ascx.cs" Line="174">In method 'Source_RHIDRICOSUBTERRANEO_RHidricoSubterraneoConsultarFormacionCuenca.consulta_formacionCuenca_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNatularesConsultarRelieve" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_relieve_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarRelieve.ascx.cs" Line="124">In method 'Source_RNATURALES_RNatularesConsultarRelieve.consulta_relieve_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturales_ConsultarCobertura" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_cobertura_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarCobertura.ascx.cs" Line="130">In method 'Source_RNATURALES_RNaturales_ConsultarCobertura.consulta_cobertura_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarAccionesConservacion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_accionesConservacion_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarAccionesConservacion.ascx.cs" Line="130">In method 'Source_RNATURALES_RNaturalesConsultarAccionesConservacion.consulta_accionesConservacion_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarBioclima" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_bioclima_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarBioclima.ascx.cs" Line="129">In method 'Source_RNATURALES_RNaturalesConsultarBioclima.consulta_bioclima_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarBioma" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_bioma_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarBioma.ascx.cs" Line="132">In method 'Source_RNATURALES_RNaturalesConsultarBioma.consulta_bioma_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarCategoriaRiesgo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_categoriaRiesgo_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarCategoriaRiesgo.ascx.cs" Line="113">In method 'Source_RNATURALES_RNaturalesConsultarCategoriaRiesgo.consulta_categoriaRiesgo_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarEcosistema" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_ecosistema_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarEcosistema.ascx.cs" Line="166">In method 'Source_RNATURALES_RNaturalesConsultarEcosistema.consulta_ecosistema_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarEspecie" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_especie_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarEspecie.ascx.cs" Line="162">In method 'Source_RNATURALES_RNaturalesConsultarEspecie.consulta_especie_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarEstadoEcosistema" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_estadoEcosistema_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarEstadoEcosistema.ascx.cs" Line="163">In method 'Source_RNATURALES_RNaturalesConsultarEstadoEcosistema.consulta_estadoEcosistema_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarFamilia" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_familia_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarFamilia.ascx.cs" Line="126">In method 'Source_RNATURALES_RNaturalesConsultarFamilia.consulta_familia_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarHumedad" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_humedad_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarHumedad.ascx.cs" Line="124">In method 'Source_RNATURALES_RNaturalesConsultarHumedad.consulta_humedad_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarOrden" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_orden_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarOrden.ascx.cs" Line="121">In method 'Source_RNATURALES_RNaturalesConsultarOrden.consulta_orden_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarPiso" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_piso_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarPiso.ascx.cs" Line="125">In method 'Source_RNATURALES_RNaturalesConsultarPiso.consulta_piso_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesConsultarTipoGeneralBioma" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#consulta_tipoGeneraBioma_Load()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesConsultarTipoGeneralBioma.ascx.cs" Line="124">In method 'Source_RNATURALES_RNaturalesConsultarTipoGeneralBioma.consulta_tipoGeneraBioma_Load()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_RNATURALES_RNaturalesCrearEstadoEcosistema" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_ecosistema_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RNATURALES" File="RNaturalesCrearEstadoEcosistema.ascx.cs" Line="26">In method 'Source_RNATURALES_RNaturalesCrearEstadoEcosistema.cbox_ecosistema_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_SEGURIDAD_SeguridadConsultarPerfil" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarRegistro()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\SUGURIDAD" File="SeguridadConsultarPerfil.ascx.cs" Line="162">In method 'Source_SEGURIDAD_SeguridadConsultarPerfil.cargarRegistro()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_SEGURIDAD_SeguridadConsultarUsuario" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarRegistro()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\SUGURIDAD" File="SeguridadConsultarUsuario.ascx.cs" Line="176">In method 'Source_SEGURIDAD_SeguridadConsultarUsuario.cargarRegistro()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_SEGURIDAD_SeguridadOlvidoContraseña" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btn_enviar_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\SUGURIDAD" File="SeguridadOlvidoContraseña.ascx.cs" Line="28">In method 'Source_SEGURIDAD_SeguridadOlvidoContraseña.btn_enviar_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'correo' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_TASAS_TasasConsultarFactorRegional" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#btn_guardar_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\TASAS" File="TasasConsultarFactorRegional.ascx.cs" Line="119">In method 'Source_TASAS_TasasConsultarFactorRegional.btn_guardar_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cargarFactor()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\TASAS" File="TasasConsultarFactorRegional.ascx.cs" Line="208">In method 'Source_TASAS_TasasConsultarFactorRegional.cargarFactor()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_Uha_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\TASAS" File="TasasConsultarFactorRegional.ascx.cs" Line="485">In method 'Source_TASAS_TasasConsultarFactorRegional.cbox_Uha_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_TASAS_TasasConsultarUha" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarUha()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\TASAS" File="TasasConsultarUha.ascx.cs" Line="135">In method 'Source_TASAS_TasasConsultarUha.cargarUha()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Source_TASAS_TasasCrearFactorRegional" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_Uha_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\TASAS" File="TasasCrearFactorRegional.ascx.cs" Line="253">In method 'Source_TASAS_TasasCrearFactorRegional.cbox_Uha_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SIGPRA">
+       <Types>
+        <Type Name="WS_Testo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ASPxButton1_Click(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA" File="WS_Testo.aspx.cs" Line="25">In method 'WS_Testo.ASPxButton1_Click(object, EventArgs)', call System.IDisposable.Dispose on object 'servicio' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SIGPRA.Source.APROFORESTAL">
+       <Types>
+        <Type Name="AproForestalConsultarAprovechamiento" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_aprovechamiento_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROFORESTAL" File="AproForestalConsultarAprovechamiento.ascx.cs" Line="46">In method 'AproForestalConsultarAprovechamiento.cbox_aprovechamiento_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AproForestalConsultarPlantacion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosPlantacion()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROFORESTAL" File="AproForestalConsultarPlantacion.ascx.cs" Line="467">In method 'AproForestalConsultarPlantacion.cargarGridViewArchivosPlantacion()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_plantacion_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROFORESTAL" File="AproForestalConsultarPlantacion.ascx.cs" Line="36">In method 'AproForestalConsultarPlantacion.cbox_plantacion_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROFORESTAL" File="AproForestalConsultarPlantacion.ascx.cs" Line="418">In method 'AproForestalConsultarPlantacion.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AproForestalConsultarPlantacionMantenimiento" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_plantacionMantenimiento_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROFORESTAL" File="AproForestalConsultarPlantacionMantenimiento.ascx.cs" Line="34">In method 'AproForestalConsultarPlantacionMantenimiento.cbox_plantacionMantenimiento_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AproForestalConsultarSalvoconducto" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosSalvoconducto()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROFORESTAL" File="AproForestalConsultarSalvoconducto.ascx.cs" Line="380">In method 'AproForestalConsultarSalvoconducto.cargarGridViewArchivosSalvoconducto()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROFORESTAL" File="AproForestalConsultarSalvoconducto.ascx.cs" Line="330">In method 'AproForestalConsultarSalvoconducto.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SIGPRA.Source.APROTEGIDAS">
+       <Types>
+        <Type Name="AProtegidasConsultarActividad" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_actividadAreaProtegida_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarActividad.ascx.cs" Line="41">In method 'AProtegidasConsultarActividad.cbox_actividadAreaProtegida_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AProtegidasConsultarActividadHumedal" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_Actividad_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarActividadHumedal.ascx.cs" Line="45">In method 'AProtegidasConsultarActividadHumedal.cbox_Actividad_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AProtegidasConsultarArea" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosArea()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarArea.ascx.cs" Line="424">In method 'AProtegidasConsultarArea.cargarGridViewArchivosArea()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_areasProtegidas_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarArea.ascx.cs" Line="49">In method 'AProtegidasConsultarArea.cbox_areasProtegidas_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarArea.ascx.cs" Line="375">In method 'AProtegidasConsultarArea.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AProtegidasConsultarEspecieHumedal" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_especie_TextChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarEspecieHumedal.ascx.cs" Line="41">In method 'AProtegidasConsultarEspecieHumedal.cbox_especie_TextChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AProtegidasConsultarFisicoQuimica" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_humedal_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarFisicoQuimica.ascx.cs" Line="31">In method 'AProtegidasConsultarFisicoQuimica.cbox_humedal_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AProtegidasConsultarHumedal" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosHumedal()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarHumedal.ascx.cs" Line="399">In method 'AProtegidasConsultarHumedal.cargarGridViewArchivosHumedal()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_areaHumedal_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarHumedal.ascx.cs" Line="53">In method 'AProtegidasConsultarHumedal.cbox_areaHumedal_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarHumedal.ascx.cs" Line="349">In method 'AProtegidasConsultarHumedal.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AProtegidasConsultarPrograma" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_programaAreaProtegida_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarPrograma.ascx.cs" Line="31">In method 'AProtegidasConsultarPrograma.cbox_programaAreaProtegida_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AProtegidasConsultarProyecto" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_proyectosAreaProtegida_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\APROTEGIDAS" File="AProtegidasConsultarProyecto.ascx.cs" Line="31">In method 'AProtegidasConsultarProyecto.cbox_proyectosAreaProtegida_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SIGPRA.Source.DESASTRES">
+       <Types>
+        <Type Name="DesastresConsultarActuacionCuencaMunicipio" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_actuacionCuencaMunicipio_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\DESASTRES" File="DesastresConsultarActuacionCuencaMunicipio.ascx.cs" Line="35">In method 'DesastresConsultarActuacionCuencaMunicipio.cbox_actuacionCuencaMunicipio_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DesastresConsultarAmenaza" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_amenaza_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\DESASTRES" File="DesastresConsultarAmenaza.ascx.cs" Line="28">In method 'DesastresConsultarAmenaza.cbox_amenaza_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DesastresConsultarClopad" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosClopad()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\DESASTRES" File="DesastresConsultarClopad.ascx.cs" Line="295">In method 'DesastresConsultarClopad.cargarGridViewArchivosClopad()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_clopad_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\DESASTRES" File="DesastresConsultarClopad.ascx.cs" Line="37">In method 'DesastresConsultarClopad.cbox_clopad_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\DESASTRES" File="DesastresConsultarClopad.ascx.cs" Line="245">In method 'DesastresConsultarClopad.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DesastresConsultarDetalleEmergenciaClopad" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_detalleEmergenciaClopad_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\DESASTRES" File="DesastresConsultarDetalleEmergenciaClopad.ascx.cs" Line="28">In method 'DesastresConsultarDetalleEmergenciaClopad.cbox_detalleEmergenciaClopad_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DesastresConsultarEmergenciaClopad" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_emergenciaClopad_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\DESASTRES" File="DesastresConsultarEmergenciaClopad.ascx.cs" Line="29">In method 'DesastresConsultarEmergenciaClopad.cbox_emergenciaClopad_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DesastresConsultarEspecieAfectada" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_especieAfectada_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\DESASTRES" File="DesastresConsultarEspecieAfectada.ascx.cs" Line="41">In method 'DesastresConsultarEspecieAfectada.cbox_especieAfectada_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DesastresConsultarEvento" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_evento_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\DESASTRES" File="DesastresConsultarEvento.ascx.cs" Line="40">In method 'DesastresConsultarEvento.cbox_evento_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DesastresConsultarSeguimientoEvento" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_seguimientoEvento_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\DESASTRES" File="DesastresConsultarSeguimientoEvento.ascx.cs" Line="28">In method 'DesastresConsultarSeguimientoEvento.cbox_seguimientoEvento_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SIGPRA.Source.GENERAL">
+       <Types>
+        <Type Name="GeneralConsultarTercero" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_tercero_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\GENERAL" File="GeneralConsultarTercero.ascx.cs" Line="34">In method 'GeneralConsultarTercero.cbox_tercero_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GeneralConsultarUnidadPeriodo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_unidadPeriodo_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\GENERAL" File="GeneralConsultarUnidadPeriodo.ascx.cs" Line="34">In method 'GeneralConsultarUnidadPeriodo.cbox_unidadPeriodo_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SIGPRA.Source.POMCA">
+       <Types>
+        <Type Name="PomcaAsociarFase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_ListaPomca_Init(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaAsociarFase.ascx.cs" Line="24">In method 'PomcaAsociarFase.cbox_ListaPomca_Init(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PomcaConsultarFase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosFase()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarFase.ascx.cs" Line="238">In method 'PomcaConsultarFase.cargarGridViewArchivosFase()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_fasePomca_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarFase.ascx.cs" Line="55">In method 'PomcaConsultarFase.cbox_fasePomca_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_ListaPomca_Init(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarFase.ascx.cs" Line="23">In method 'PomcaConsultarFase.cbox_ListaPomca_Init(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_ListaPomca_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarFase.ascx.cs" Line="35">In method 'PomcaConsultarFase.cbox_ListaPomca_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarFase.ascx.cs" Line="188">In method 'PomcaConsultarFase.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PomcaConsultarMetaProyecto" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosMetaProyecto()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarMetaProyecto.ascx.cs" Line="230">In method 'PomcaConsultarMetaProyecto.cargarGridViewArchivosMetaProyecto()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_metasPomca_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarMetaProyecto.ascx.cs" Line="29">In method 'PomcaConsultarMetaProyecto.cbox_metasPomca_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarMetaProyecto.ascx.cs" Line="180">In method 'PomcaConsultarMetaProyecto.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PomcaConsultarPomca" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosPomca()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarPomca.ascx.cs" Line="225">In method 'PomcaConsultarPomca.cargarGridViewArchivosPomca()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_ListaPomca_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarPomca.ascx.cs" Line="43">In method 'PomcaConsultarPomca.cbox_ListaPomca_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarPomca.ascx.cs" Line="175">In method 'PomcaConsultarPomca.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PomcaConsultarProgramaFase" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosProgramaFase()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarProgramaFase.ascx.cs" Line="235">In method 'PomcaConsultarProgramaFase.cargarGridViewArchivosProgramaFase()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_programaHabilitado_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarProgramaFase.ascx.cs" Line="64">In method 'PomcaConsultarProgramaFase.cbox_programaHabilitado_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarProgramaFase.ascx.cs" Line="185">In method 'PomcaConsultarProgramaFase.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PomcaConsultarProyectoPrograma" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosProyectoPrograma()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarProyectoPrograma.ascx.cs" Line="218">In method 'PomcaConsultarProyectoPrograma.cargarGridViewArchivosProyectoPrograma()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_programasPomca_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarProyectoPrograma.ascx.cs" Line="29">In method 'PomcaConsultarProyectoPrograma.cbox_programasPomca_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POMCA" File="PomcaConsultarProyectoPrograma.ascx.cs" Line="168">In method 'PomcaConsultarProyectoPrograma.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SIGPRA.Source.POT">
+       <Types>
+        <Type Name="POTConsultarCentroPoblado" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_centroPoblado_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarCentroPoblado.ascx.cs" Line="28">In method 'POTConsultarCentroPoblado.cbox_centroPoblado_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarCronologiaPOT" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_cronologia_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarCronologiaPOT.ascx.cs" Line="34">In method 'POTConsultarCronologiaPOT.cbox_cronologia_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarDotacionPOT" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosDotacionPot()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarDotacionPOT.ascx.cs" Line="227">In method 'POTConsultarDotacionPOT.cargarGridViewArchivosDotacionPot()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_dotacionPOT_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarDotacionPOT.ascx.cs" Line="30">In method 'POTConsultarDotacionPOT.cbox_dotacionPOT_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarDotacionPOT.ascx.cs" Line="178">In method 'POTConsultarDotacionPOT.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarEscombrerasPOT" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosEscombrerasPot()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarEscombrerasPOT.ascx.cs" Line="206">In method 'POTConsultarEscombrerasPOT.cargarGridViewArchivosEscombrerasPot()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_pot_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarEscombrerasPOT.ascx.cs" Line="29">In method 'POTConsultarEscombrerasPOT.cbox_pot_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarEscombrerasPOT.ascx.cs" Line="157">In method 'POTConsultarEscombrerasPOT.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarPlanParcialPOT" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_planParcial_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarPlanParcialPOT.ascx.cs" Line="34">In method 'POTConsultarPlanParcialPOT.cbox_planParcial_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarPOT" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosPot()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarPOT.ascx.cs" Line="382">In method 'POTConsultarPOT.cargarGridViewArchivosPot()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_pot_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarPOT.ascx.cs" Line="35">In method 'POTConsultarPOT.cbox_pot_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarPOT.ascx.cs" Line="334">In method 'POTConsultarPOT.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarProteccionPOT" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosProteccionPot()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarProteccionPOT.ascx.cs" Line="248">In method 'POTConsultarProteccionPOT.cargarGridViewArchivosProteccionPot()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_proteccion_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarProteccionPOT.ascx.cs" Line="50">In method 'POTConsultarProteccionPOT.cbox_proteccion_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarProteccionPOT.ascx.cs" Line="198">In method 'POTConsultarProteccionPOT.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarTipoDotacion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_tipoDotacion_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarTipoDotacion.ascx.cs" Line="28">In method 'POTConsultarTipoDotacion.cbox_tipoDotacion_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarTipoDotacionClasificacion" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_tipoDotacionClasificacion_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarTipoDotacionClasificacion.ascx.cs" Line="36">In method 'POTConsultarTipoDotacionClasificacion.cbox_tipoDotacionClasificacion_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarTipoProteccionAmbientalPOT" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosTipoProteccionAmbientalPot()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarTipoProteccionAmbientalPOT.ascx.cs" Line="186">In method 'POTConsultarTipoProteccionAmbientalPOT.cargarGridViewArchivosTipoProteccionAmbientalPot()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_tipoProteccion_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarTipoProteccionAmbientalPOT.ascx.cs" Line="29">In method 'POTConsultarTipoProteccionAmbientalPOT.cbox_tipoProteccion_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarTipoProteccionAmbientalPOT.ascx.cs" Line="137">In method 'POTConsultarTipoProteccionAmbientalPOT.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarTipoProteccionPOT" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosTipoProteccionPot()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarTipoProteccionPOT.ascx.cs" Line="183">In method 'POTConsultarTipoProteccionPOT.cargarGridViewArchivosTipoProteccionPot()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_tipoProteccion_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarTipoProteccionPOT.ascx.cs" Line="29">In method 'POTConsultarTipoProteccionPOT.cbox_tipoProteccion_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarTipoProteccionPOT.ascx.cs" Line="134">In method 'POTConsultarTipoProteccionPOT.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarUPR" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_UPR_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarUPR.ascx.cs" Line="34">In method 'POTConsultarUPR.cbox_UPR_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="POTConsultarViviendaCampestrePOT" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cargarGridViewArchivosViviendaCampestrePot()" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarViviendaCampestrePOT.ascx.cs" Line="287">In method 'POTConsultarViviendaCampestrePOT.cargarGridViewArchivosViviendaCampestrePot()', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#cbox_viviendaCampetre_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarViviendaCampestrePOT.ascx.cs" Line="35">In method 'POTConsultarViviendaCampestrePOT.cbox_viviendaCampetre_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#UploadControl_FileUploadComplete(System.Object,DevExpress.Web.ASPxUploadControl.FileUploadCompleteEventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\POT" File="POTConsultarViviendaCampestrePOT.ascx.cs" Line="237">In method 'POTConsultarViviendaCampestrePOT.UploadControl_FileUploadComplete(object, FileUploadCompleteEventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="SIGPRA.Source.RHIDRICOSUBTERRANEO">
+       <Types>
+        <Type Name="RHidricoSubterraneoConsultarMedicionPuntoAgua" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_medicionPuntoAgua_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RHIDRICOSUBTERRANEO" File="RHidricoSubterraneoConsultarMedicionPuntoAgua.ascx.cs" Line="40">In method 'RHidricoSubterraneoConsultarMedicionPuntoAgua.cbox_medicionPuntoAgua_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="RHidricoSubterraneoConsultarPuntoAgua" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#cbox_puntoAgua_SelectedIndexChanged(System.Object,System.EventArgs)" Kind="Method" Static="False" Accessibility="Family" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2012-02-13 14:44:30Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\srodriguez\Documents\Visual Studio 2010\Projects\SIGPRA\SIGPRA\trunk\SIGPRA\Source\RHIDRICOSUBTERRANEO" File="RHidricoSubterraneoConsultarPuntoAgua.ascx.cs" Line="40">In method 'RHidricoSubterraneoConsultarPuntoAgua.cbox_puntoAgua_SelectedIndexChanged(object, EventArgs)', call System.IDisposable.Dispose on object 'listaParametros' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Dispose objects before losing scope</Name>
+   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
+   <Resolution Name="NonExceptionEdge">In method {0}, call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

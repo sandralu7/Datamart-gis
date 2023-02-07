@@ -1,0 +1,64 @@
+﻿using System;
+using System.Data;
+using System.Configuration;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using GeosDataSetTableAdapters;
+
+/// <summary>
+/// Clase que maneja la entidad usuario
+/// </summary>
+/// <author> Sandra Lucia Rodríguez Torres</author>
+public class Usuario
+{
+    private static USUARIOTableAdapter adapterUsuario = new USUARIOTableAdapter();
+
+    /// <summaray>
+    /// Constructor de la case usuario.
+    /// </summary>
+    public Usuario()
+    {
+        //
+        // TODO: Add constructor logic here
+        //
+    }
+
+    /// <summary>
+    /// Clase encargada de validar el usario y la contraseña del usuario.
+    /// </summary>
+    /// <param name="strUsuario"></param>
+    /// <param name="strClave"></param>
+    /// <returns></returns>
+    public static Boolean validUser(String strUsuario, String strClave)
+    {
+        Boolean valido = false;
+        DataTable dt = adapterUsuario.ValidaUsuario(strUsuario, strClave);
+        if (dt.Rows.Count > 0)
+        {
+            valido = true;
+        }
+        return valido;
+    }
+    /// <summary>
+    /// Metodo encargado de obtener de la informacion del usuario que se esta logueando.
+    /// </summary>
+    /// <param name="strUsuario"></param>
+    /// <param name="strClave"></param>
+    /// <returns></returns>
+    public static GeosDataSet.USUARIORow GetUserInfo(String strUsuario, String strClave)
+    {
+        DataTable dt = adapterUsuario.ValidaUsuario(strUsuario, strClave);
+        GeosDataSet.USUARIORow myRow = null;
+        foreach (DataRow row in dt.Rows)
+        {
+            myRow = (GeosDataSet.USUARIORow)row;
+        }
+        return myRow;
+    }
+}

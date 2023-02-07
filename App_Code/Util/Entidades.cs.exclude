@@ -1,0 +1,62 @@
+﻿using System;
+using System.Collections;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.HtmlControls;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Xml.Linq;
+using GeosDataSetTableAdapters;
+/// <summary>
+/// Summary description for Entidades
+/// </summary>
+public class Entidades
+{
+    private static USUARIOTableAdapter adapterUsuario = new USUARIOTableAdapter();
+	public Entidades()
+	{
+		//
+		// TODO: Add constructor logic here
+		//
+	}
+
+    /// <summary>
+    /// Busca un usuario por su identificador.
+    /// </summary>
+    /// <param name="id_usuario"></param>
+    /// <returns></returns>
+    public static GeosDataSet.USUARIORow BuscarUsuarioPorId(int id_usuario)
+    {
+        DataTable dt = adapterUsuario.UsuarioById(id_usuario);
+        GeosDataSet.USUARIORow myRow = null;
+        foreach (DataRow row in dt.Rows)
+        {
+            myRow = (GeosDataSet.USUARIORow)row;
+        }
+        return myRow;
+
+    }
+
+    /// <summary>
+    /// Busca un usuario por su correo.
+    /// </summary>
+    /// <param name="id_usuario"></param>
+    /// <returns></returns>
+    public static GeosDataSet.USUARIORow BuscarUsuarioPorCorreo(String correo)
+    {
+        DataTable dt = adapterUsuario.UsuarioPorCorreo(correo);
+        GeosDataSet.USUARIORow myRow = null;
+        foreach (DataRow row in dt.Rows)
+        {
+            myRow = (GeosDataSet.USUARIORow)row;
+        }
+        return myRow;
+
+    }
+
+
+}
